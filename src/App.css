@@ -33,8 +33,21 @@
   }
 }
 
-.card {
-  padding: 2em;
+ .card h3{
+  justify-content: space-around;
+  color: #8a959f;
+ }
+
+.country{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px;
+  border-top: 4px solid#8a959f;
+  
+}
+image {
+  height: 1000px;
 }
 
 .read-the-docs {
